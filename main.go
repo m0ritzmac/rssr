@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"github.com/m0ritzmac/rssr/pkg/server"
+)
 
 func main() {
-	fmt.Println("Hello World")
+	server.Start()
 }
